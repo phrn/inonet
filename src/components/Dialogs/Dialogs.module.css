@@ -1,0 +1,70 @@
+
+.msgs {
+  color: aliceblue;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+textarea {
+  padding-top: 10px;
+  height: 20px;
+  width: 400px;
+  text-align: center;
+  background-color: #222222;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  margin-right: 5px;
+  resize: none;
+}
+
+.btn_dialog {
+  outline: none;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  background-color: #222222;
+  cursor: pointer; 
+}
+
+.btn_dialog:hover {
+  transition: .3s ease-in;
+  color: #222222;
+  background-color: aliceblue;
+}
+
+.form_dialog {
+  display: flex;
+}
+
+.msgs:hover {
+  border-radius: 15px;
+  transition: 0.2s ease;
+  background-color: rgba(240, 248, 255, 0.068);
+}
+
+a {
+  text-decoration: none;
+}
+
+.msgDescr {
+  padding-left: 15px;
+}
+
+.sent {
+  margin: 0;
+}
+
+.imgDialog {
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+}

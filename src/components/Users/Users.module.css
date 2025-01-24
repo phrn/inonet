@@ -1,0 +1,77 @@
+.text {
+    color: aliceblue;
+  }
+  
+  .feed {
+    margin-bottom: 20px;
+  }
+  
+  .feedtext {
+    color: rgba(240, 248, 255, 0.589);
+  }
+  
+  .sents {
+    display: flex;
+    padding-bottom: 15px;
+  }
+  
+  .imgAuthor {
+    padding-right: 15px;
+  }
+  
+  p {
+    margin: 0;
+    color: aliceblue;
+  }
+  
+.wrapper {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+  .usersPhoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* padding-bottom: 15px; */
+  }
+
+ 
+
+  .selectedPage {
+    gap: 15px;
+    font-weight: 400;
+    color: rgb(0, 162, 255);
+  }
+  
+  .text {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+.photobtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .btn {
+    margin: 15px 0;
+    /* margin-left: 40px; */
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: 0.5s ease;
+  }
+  
+  
+  
+  .btn:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+  

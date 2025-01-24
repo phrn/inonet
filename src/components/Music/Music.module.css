@@ -1,0 +1,64 @@
+/* 
+
+.wrapper {
+  display: flex;
+
+  color:aliceblue; 
+}
+
+.play {
+  background-color: inherit;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+.play img{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+   */
+  .item {
+    margin: 10px 5px;
+  }
+
+   .btn {
+    outline: none;
+    background-color: inherit;
+    border: none;
+    width: 30px;
+    height: 30px;
+   }
+
+
+   .item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    color: aliceblue;
+  }
+  
+  .item {
+    /* padding-bottom: 8px; */
+    display: flex;
+    transition: .3s ease;
+  }
+
+  .item:hover {
+    background-color: #292929;
+  }
+
+  .artist a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  .text {
+    padding-left: 18px;
+    color: aliceblue;
+    margin: 0;
+    font-size: 12px;
+  }

@@ -1,0 +1,28 @@
+.loginBlock p {
+  color: aliceblue;
+  margin-right: 25px;
+}
+
+.Header_loginBlock__IUEe2 {
+  color: aliceblue !important;
+  margin-right: 25px !important;
+
+}
+
+.header {
+  padding-right: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: h;
+  background-color: #5f5f5f;
+}
+
+.logo {
+  padding-left: 25px;
+  margin: 0 auto;
+  width: 60px;
+}
+
+

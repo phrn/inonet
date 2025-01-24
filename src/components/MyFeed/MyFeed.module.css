@@ -1,0 +1,59 @@
+.text {
+  color: aliceblue;
+}
+
+.feed {
+  margin-bottom: 20px;
+}
+
+.feedtext {
+  color: rgba(240, 248, 255, 0.589);
+}
+
+.sents {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.imgAuthor {
+  padding-right: 15px;
+}
+
+p {
+  margin: 0;
+  color: aliceblue;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+
+.text {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.item_do {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  border-radius: 10%;
+  padding: 5px 10px;
+  transition: 0.5s ease;
+}
+
+.item_do::before {
+  content: "Likes:";
+}
+
+.item_do::after {
+  content: " 0";
+}
+
+.item_do:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}

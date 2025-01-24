@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  border-bottom: 1px solid aliceblue;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+
+.item {
+  padding-top: 20px;
+}
+.info_prof {
+  color: azure;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 25px;
+  
+}
+
+.wrapper img {
+  padding-top: 20px;
+  filter: grayscale(70%);
+  width: 175px;
+}
+
+.item {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.banner_content {
+  height: 200px;
+  width: 955px;
+  object-fit:initial;
+  
+
+}
+
+.img_prof {
+  width: 1020px;
+}

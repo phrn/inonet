@@ -1,0 +1,13 @@
+.selectedPage {
+  font-weight: 400;
+  color: rgb(0, 162, 255);
+}
+
+.paginationP {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+  cursor: pointer;
+  color: aliceblue
+
+}

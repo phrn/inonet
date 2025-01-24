@@ -1,0 +1,44 @@
+.content {
+  display: flex;
+  justify-content: flex-start;
+  /* padding-top: 25px; */
+  margin-bottom: 15px;
+}
+
+.postheader {
+  color: aliceblue;
+}
+
+
+.textarea {
+  padding-top: 10px;
+  height: 20px;
+  width: 400px;
+  text-align: center;
+  background-color: #222222;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  margin-right: 15px;
+  resize: none;
+}
+
+.btn {
+  outline: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  background-color: #222222;
+  margin-right: 15px;
+  cursor: pointer; 
+}
+
+.btn:hover {
+  transition: .3s ease-in;
+  color: #222222;
+  background-color: aliceblue;
+}
+
+
+

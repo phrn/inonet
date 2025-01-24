@@ -1,0 +1,25 @@
+
+.wrapper {
+  display: flex;
+  padding: 15px 15px;
+  gap: 25px;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+
+
+.friendsName {
+  font-size: 10px;
+  text-align: center;
+}
+
+.headerFriends {
+  padding: 65px 0 15px 15px;
+}
+

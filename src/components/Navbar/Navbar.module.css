@@ -1,0 +1,29 @@
+.nav {
+  padding-top: 15px;
+  background-color: #3a3a3a;
+  grid-area: n;
+  width: 230px;
+}
+
+.active {
+  color: rgb(0, 162, 255);
+  padding: 5px 15px;
+  transition: 0.6s ease;
+}
+
+.item, .search {
+  /* margin: 15px 10px 15px 10px; */
+  display: flex;
+  /* background-color: #3a3a3a; */
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #fff;
+}
+
+.search {
+  padding-top: 75px;
+}
+
+.item:hover {
+  background-color: #4e4e4e;
+}
