@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/phrn/inonet/static/css/main.577977f5.css",
+    "main.js": "/phrn/inonet/static/js/main.8d99ffa5.js",
+    "static/css/32.00f294c2.chunk.css": "/phrn/inonet/static/css/32.00f294c2.chunk.css",
+    "static/js/32.ebe1a40e.chunk.js": "/phrn/inonet/static/js/32.ebe1a40e.chunk.js",
+    "static/css/750.09cf0556.chunk.css": "/phrn/inonet/static/css/750.09cf0556.chunk.css",
+    "static/js/750.68ecee9b.chunk.js": "/phrn/inonet/static/js/750.68ecee9b.chunk.js",
+    "static/js/453.7cd8b0c0.chunk.js": "/phrn/inonet/static/js/453.7cd8b0c0.chunk.js",
+    "static/media/zakopane.jpg": "/phrn/inonet/static/media/zakopane.8f4da99c15d9690e4614.jpg",
+    "static/media/pieniny.jpg": "/phrn/inonet/static/media/pieniny.bbbfee3846b641623d11.jpg",
+    "static/media/Bieszczady Mountains.jpg": "/phrn/inonet/static/media/Bieszczady Mountains.a9e579a8a4797bb88998.jpg",
+    "static/media/userPhoto.jpg": "/phrn/inonet/static/media/userPhoto.10a890ff9d0be58b411f.jpg",
+    "static/media/bannerx.jpg": "/phrn/inonet/static/media/bannerx.213003fb86278f831c00.jpg",
+    "static/media/bb.webp": "/phrn/inonet/static/media/bb.6ca663fe58936aa08815.webp",
+    "static/media/Bean Eater@1x-1.0s-200px-200px.svg": "/phrn/inonet/static/media/Bean Eater@1x-1.0s-200px-200px.2f801e79f9a18b434dfac6e2fe4b019c.svg",
+    "static/media/logo.svg": "/phrn/inonet/static/media/logo.e1e91fcb8017411fe32917aa65917098.svg",
+    "static/media/play.svg": "/phrn/inonet/static/media/play.e903e1d16ea3a3698a04bb8af148d9ba.svg",
+    "index.html": "/phrn/inonet/index.html",
+    "main.577977f5.css.map": "/phrn/inonet/static/css/main.577977f5.css.map",
+    "main.8d99ffa5.js.map": "/phrn/inonet/static/js/main.8d99ffa5.js.map",
+    "32.00f294c2.chunk.css.map": "/phrn/inonet/static/css/32.00f294c2.chunk.css.map",
+    "32.ebe1a40e.chunk.js.map": "/phrn/inonet/static/js/32.ebe1a40e.chunk.js.map",
+    "750.09cf0556.chunk.css.map": "/phrn/inonet/static/css/750.09cf0556.chunk.css.map",
+    "750.68ecee9b.chunk.js.map": "/phrn/inonet/static/js/750.68ecee9b.chunk.js.map",
+    "453.7cd8b0c0.chunk.js.map": "/phrn/inonet/static/js/453.7cd8b0c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.577977f5.css",
+    "static/js/main.8d99ffa5.js"
+  ]
+}
