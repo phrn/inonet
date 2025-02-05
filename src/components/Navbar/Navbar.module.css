@@ -3,7 +3,10 @@
   background-color: #3a3a3a;
   grid-area: n;
   width: 230px;
+  
 }
+
+
 
 .active {
   color: rgb(0, 162, 255);

@@ -64,6 +64,8 @@ class App extends Component {
                     store={this.props.store}
                   />
                 }
+
+                
               />
               <Route
                 path="/users"
@@ -89,3 +91,68 @@ const mapStateToProps = (state) => ({
 });
 
 export default connect(mapStateToProps, { initializeApp })(App);
+
+
+// import React from "react";
+// import { connect } from "react-redux";
+// import Profile from "./Profile";
+// import axios from "axios";
+// import { Navigate } from "react-router-dom";
+// import { setUserProfile, getStatus, updateStatus } from "../../redux/profile-reducer";
+
+// class ProfileContainer extends React.Component {
+//   refreshProfile() {
+//     let userId = this.props.userId;
+
+//     if (!userId) {
+//       userId = this.props.authorizedUserId;
+//       if (!userId) {
+//         return false; 
+//       }
+//     }
+
+//     this.props.getStatus(userId);
+//     axios
+//       .get(`https://social-network.samuraijs.com/api/1.0/profile/${userId}`)
+//       .then((response) => {
+//         this.props.setUserProfile(response.data);
+//       });
+//     return true;
+//   }
+
+//   componentDidMount() {
+//     this.refreshProfile()
+//   }
+
+//   componentDidUpdate(prevProps, prevState, snapshot) {
+//     debugger;
+//     if (this.props.userId != prevProps.userId) {
+//       this.refreshProfile()
+      
+//     }
+//   }
+
+//   render() {
+//     if (!this.props.isAuth) return <Navigate to="/login" />;
+
+//     return (
+//       <div>
+//         <Profile
+//           {...this.props}
+//           profile={this.props.profile}
+//           status={this.props.status}
+//           updateStatus={this.props.updateStatus}
+//         />
+//       </div>
+//     );
+//   }
+// }
+
+// const mapStateToProps = (state) => ({
+//   profile: state.profilePage.profile,
+//   status: state.profilePage.status,
+//   authorizedUserId: state.auth.userId,
+//   isAuth: state.auth.isAuth,
+// });
+
+// export default connect(mapStateToProps, { setUserProfile, getStatus, updateStatus })(ProfileContainer);

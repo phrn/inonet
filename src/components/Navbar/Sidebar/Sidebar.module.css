@@ -1,4 +1,6 @@
-
+.sideBar {
+  visibility: hidden;
+}
 .wrapper {
   display: flex;
   padding: 15px 15px;

@@ -1,6 +1,6 @@
 import s from "../Sidebar/Sidebar.module.css";
 import { NavLink } from "react-router-dom";
-import bb from "./../../../bb.webp";
+import bb from "./../../../userPhoto1.jpg";
 
 function Sidebar(props) {
   
@@ -9,7 +9,7 @@ function Sidebar(props) {
   
 
   return (
-    <div>
+    <div className={s.sideBar}>
       <h2 className={s.headerFriends}>Friends</h2>
       <div className={s.wrapper}>
         <div className={s.item}>

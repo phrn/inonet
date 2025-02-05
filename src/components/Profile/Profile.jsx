@@ -7,7 +7,7 @@ function Profile(props) {
   
   return (
     <div className={s.content}>
-      <ProfileInfo {...props}  />
+      <ProfileInfo isOwner={props.isOwner} {...props} savePhoto={props.savePhoto} saveProfile={props.saveProfile} />
       <MyPostsContainer />
     </div>
   );

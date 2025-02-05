@@ -9,7 +9,10 @@
 
 }
 
+
 .header {
+  /* position: fixed;
+  width: 1255px; */
   padding-right: 25px;
   color: #fff;
   display: flex;

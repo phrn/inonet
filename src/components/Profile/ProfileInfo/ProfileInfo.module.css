@@ -35,8 +35,66 @@
 }
 
 .img_prof {
-  border-radius: 50%;
+  position: relative;
+  border-radius: 15%;
   margin-top: 10px;
   width: 180px;
   height: 180px
+}
+
+input[type=file] {
+  position: absolute;
+  margin-top: 40px;
+  font-size: 9px;
+  color: rgba(0, 0, 0, 0);
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
+  border-radius: 5px;
+}
+
+.upload[type=file]::file-selector-button {
+  visibility: hidden;
+}
+
+.upload::after {
+  content: "Upload photo";
+  color: #ffffff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+
+.contact {
+  padding-left: 10px;
+}
+
+.buttonX1 {
+  position: relative;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  padding: 6px 55px;
+  cursor: pointer;
+  border: 1px solid #ffffff
+
+}
+.buttonX2 {
+  position: absolute;
+  left: 31%;
+  top: 90.2%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5px;
+  padding: 6px 73px;
+  cursor: pointer;
+  border: 1px solid #ffffff
+
+}
+
+.buttonX1:hover, .buttonX2:hover, .upload:hover {
+  transition: 1s ease-in-out;
+  background-color: #222222;
+  color: #ffffff;
 }
