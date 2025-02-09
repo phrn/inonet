@@ -22,9 +22,20 @@ const ProfileContainer = lazy(() =>
 );
 
 class App extends Component {
+  // catchAllUnhandledError = (reason, promise) => {
+  //   alert('some error occured')
+  //   // console.error(promiseRejectionEvent)
+  // }
+
   componentDidMount() {
     this.props.initializeApp();
+    // window.addEventListener('unhandledrejection', this.catchAllUnhandledError())
   }
+
+  // componentWillUnmount() {
+  //   window.removeEventListener('unhandledrejection', this.catchAllUnhandledError())
+
+  // }
   render() {
     if (!this.props.initialized) {
       return <Preloader />;
@@ -64,8 +75,6 @@ class App extends Component {
                     store={this.props.store}
                   />
                 }
-
-                
               />
               <Route
                 path="/users"
@@ -92,7 +101,6 @@ const mapStateToProps = (state) => ({
 
 export default connect(mapStateToProps, { initializeApp })(App);
 
-
 // import React from "react";
 // import { connect } from "react-redux";
 // import Profile from "./Profile";
@@ -107,7 +115,7 @@ export default connect(mapStateToProps, { initializeApp })(App);
 //     if (!userId) {
 //       userId = this.props.authorizedUserId;
 //       if (!userId) {
-//         return false; 
+//         return false;
 //       }
 //     }
 
@@ -128,7 +136,7 @@ export default connect(mapStateToProps, { initializeApp })(App);
 //     debugger;
 //     if (this.props.userId != prevProps.userId) {
 //       this.refreshProfile()
-      
+
 //     }
 //   }
 

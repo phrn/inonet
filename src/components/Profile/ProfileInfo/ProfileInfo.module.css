@@ -81,9 +81,9 @@ input[type=file] {
 
 }
 .buttonX2 {
-  position: absolute;
-  left: 31%;
-  top: 90.2%;
+  position: relative;
+  left: -80%;
+  top: 28.7%;
   border-radius: 5px;
   border: none;
   margin-top: 5px;
